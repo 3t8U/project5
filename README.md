@@ -16,12 +16,12 @@ _https://3t8u.github._
 
 
 * _The application creates a function to collect user age and calculate user's age in Mercury, Venus, Mars & Jupiter age _
-  * _Example Input: user 40 years_
+  * _Example Input: User enters 40 years_
   * _Example Output: "You are 166 Mercurial years, 65 Venutian years, 21 mars years & 3 Jupiterian years old. _
 
-* _The application creates a prototype to calculate the price of the pizza _
-  * _Example Input: User selects "Large" pie with 2 toppings_
-  * _Example Output: application outputs $17_
+* _The application creates another function that takes user input and compares it against the expected age of user's gender and compares it against actual age _
+  * _Example Input: User enters 40 years and selects gender "Male"_
+  * _Example Output: "You have 35 earth years, 166 Mercurial years, 65 Venutian years, 21 mars years & 3 Jupiterian years _
 
 * _The application creates a function to show the user their order summary and total for the pie_
   * _Example Input: User selects "Large" pie with Jalapenós & Olives._
