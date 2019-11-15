@@ -41,9 +41,10 @@ _https://3t8u.github._
 ## Setup/Installation Requirements
 
 * _Open HTML page in browser_
-* _Select the size and toppings you would like on your pizza_
-* _After all toppings are selected, click the "Make my pie" button_
-* _See your total and check your order for accuracy_
+* _Enter your age_
+* _Select the your gender_
+* _Click the submit button_
+* _Enjoy your results!_
 
 
 __
@@ -58,7 +59,7 @@ _Any questions, comments or contributions please contact Nate Powers (Russellspr
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, Git, jQuery and Javascript, and decades of experience consuming pizza were used to make the application_
+_HTML, CSS, Bootstrap, Git, jQuery and Javascript, Webpack, Jest, Nodejs, Eslinter and the wisdom of the planets_
 
 ### License
 
