@@ -5,15 +5,13 @@ const Jupiter = 4329
 
 
 
-class Calculator {
+export class Calculator {
   constructor(Age, Gender){
     this.Age = Age;
     this.Gender = Gender
-
+// alert("!!!!")
     }
-    validate(Age){
-      if (typeof Age === "number"){
-        return true;
-      }
+    validate(){
+      return (typeof this.Age === "number") ? true : false
     }
 };
