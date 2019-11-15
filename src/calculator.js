@@ -1,16 +1,8 @@
-Calculator.prototype.checkType = function() {
+const Mercury =
 
 
 
-
-
-
-
-export function Calculator(age, planets){
-this.age = inputUser()
- multiply(this.age * 365){
-   divide.product("planet");
- }
-}
+class Calculator {
+  constructor()
 
 }
