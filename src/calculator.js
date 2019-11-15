@@ -1,0 +1,11 @@
+Calculator.prototype.checkType = function() {
+
+
+
+
+
+
+
+
+  
+}
