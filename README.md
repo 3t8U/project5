@@ -12,12 +12,12 @@ _https://3t8u.github._
 
 ##Specs
 
-* _The application creates an empty pizza object._
+* _The application creates an empty age object_
 
 
-* _The application creates a function to collect user inputs and add them to the pizza_
-  * _Example Input: user selects "olives" as a topping_
-  * _Example Output: "Olives" are added to the pizza_
+* _The application creates a function to collect user age and calculate user's age in Mercury, Venus, Mars & Jupiter age _
+  * _Example Input: user 40 years_
+  * _Example Output: "You are 166 Mercurial years, 65 Venutian years, 21 mars years & 3 Jupiterian years old. _
 
 * _The application creates a prototype to calculate the price of the pizza _
   * _Example Input: User selects "Large" pie with 2 toppings_
@@ -27,9 +27,7 @@ _https://3t8u.github._
   * _Example Input: User selects "Large" pie with Jalapenós & Olives._
   * _Example Output: application shows order summary screen displaying text "We've got your order of a Large pizza with        Jalapenós, Olives. Your total is $15 and we'll have it ready in 30 minutes or less :)"_
 
-* _The application has a function to add an "&" into the output of toppings_
-  * _Example Input: User selects "Large" pie with Jalapenós, Olives, Pepperoni._
-  * _Example Output: "We've got your order of a Large pizza with, Jalapenós, Olives & Pepperoni. Your total is $15 and we'll have it ready in 30 minutes or less :)"_
+
 
 
 ## Setup/Installation Requirements
