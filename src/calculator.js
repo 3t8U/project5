@@ -16,7 +16,8 @@ export class Calculator {
       return (typeof this.Age === "number") ? true : false
     }
     transAge(){
-    for(i = 0; i < arrayPlanets.length; i++){
+      throw arrayPlanets.length
+    for (let i = 0; i < arrayPlanets.length; i++){
     let xFormed = this.Age * arrayPlanets[i];
     this.arrayPlanetsXformed[i] = Math.ceil(xFormed);
 
