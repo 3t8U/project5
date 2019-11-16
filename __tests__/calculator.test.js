@@ -7,10 +7,16 @@ describe('Calculator', () => {
       expect(stringWithNumber.validate()).toEqual(true);
     });
 
-    test('The validate function is returning a false if it recieves a string', () => {
-        let stringWithNumber = new Calculator("A")
-        expect(stringWithNumber.validate()).toEqual(false);
-      });
+  test('The validate function is returning a false if it recieves a string', () => {
+      let stringWithNumber = new Calculator("A")
+      expect(stringWithNumber.validate()).toEqual(false);
+    });
+
+  test('the function returns new planetary age', () => {
+    let calculator =  new Calculator(40)
+    expect(calculator.transAge()).toEqual([166,65,21,3]);
+
+  });
 
 
 
