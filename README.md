@@ -18,7 +18,7 @@ _https://3t8u.github._
 * _The application creates a function to collect user age and calculate user's age in Mercury, Venus, Mars & Jupiter age_
 
   * _Example Input: User enters 40 years_
-  * _Example Output: "You are 166 Mercurial years, 65 Venutian years, 21 mars years & 3 Jupiterian years old._
+  * _Example Output: "You are 166 Mercurial years, 65 Venutian years, 21 Martian years & 3 Jupiterian years old._
 
 * _The application creates another function that takes user inputted age and compares it against the set expected age of user's gender in earth years (Male = 75 years & Female = 85 years)_
 
@@ -28,7 +28,7 @@ _https://3t8u.github._
 * _The application sends the result of the life expectancy function back into the age calculator function and outputs the user life expectancy on each planet with a message_
 
   * _Example Input: User enters 40 years and selects gender "Male"_
-  * _Example Output: "You have 35 earth years, 166 Mercurial years, 65 Venutian years, 21 mars years & 3 Jupiterian years left to live. Congratulations and good luck_
+  * _Example Output: "You have 35 earth years, 166 Mercurial years, 65 Venutian years, 21 Martian years & 3 Jupiterian years left to live. Congratulations and good luck_
 
   * _If the user has surpassed the life expectancy, The application sends the difference of additional years back to the user with message_
 
