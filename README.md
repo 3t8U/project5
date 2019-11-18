@@ -32,8 +32,8 @@ _https://3t8u.github._
 
   * _If the user has surpassed the life expectancy, The application sends the difference of additional years back to the user with message_
 
-    * _Example Input: User enters 40 years and selects gender "Male"_
-    * _Example Output: "Great, you beat the odds. Enjoy the rest of your decay"_
+    * _Example Input: User enters 85 years and selects gender "Male"_
+    * _Example Output: "Great, you beat the odds by 5 years. Enjoy the rest of your decay"_
 
 
 

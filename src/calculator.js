@@ -12,41 +12,45 @@ export class Calculator {
     this.Gender = Gender
     this.arrayPlanetsXformed = []
     this.ageInput = Age
-// alert("!!!!")
+    // alert("!!!!")
+  }
+  validate(){
+    if (isNaN(this.Age)){
+      return false;
     }
-    validate(){
-       if (isNaN(this.Age)){
-        return false;
-       }
-      return (typeof this.Age === "number") ? true : false
+    return (typeof this.Age === "number") ? true : false
 
+  }
+  transAge(){
+    for (let i = 0; i < Object.entries(arrayPlanets).length; i++){
+      let arrayPlanetsEntries = Object.entries(arrayPlanets)
+      // throw arrayPlanetsEntries[i][1]
+      let planet = arrayPlanetsEntries[i][1]
+      let xFormed = this.Age / planet;
+      this.arrayPlanetsXformed[i] = Math.ceil(xFormed);
+      // throw this.arrayPlanetsXformed
     }
-    transAge(){
-      for (let i = 0; i < Object.entries(arrayPlanets).length; i++){
-        let arrayPlanetsEntries = Object.entries(arrayPlanets)
-        // throw arrayPlanetsEntries[i][1]
-        let planet = arrayPlanetsEntries[i][1]
-        let xFormed = this.Age / planet;
-        this.arrayPlanetsXformed[i] = Math.ceil(xFormed);
-    // throw this.arrayPlanetsXformed
-      }
-      return this.arrayPlanetsXformed;
-    }
+    return this.arrayPlanetsXformed;
+  }
 
-    lifeExpect(){
-      return Lifespan - this.ageInput;
-    }
+  lifeExpect(){
+    return Lifespan - this.ageInput;
+  }
 
-    finalAnswer(){
-      let lifeExpect = this.lifeExpect()
-      if (lifeExpect >= 0){
-        return ("You have " + lifeExpect + " years left")
-      }
+  finalAnswer(){
+    let lifeExpect = this.lifeExpect()
+    if (lifeExpect >= 0){
+      return ("You have " + lifeExpect + " years left")
+    }  else if (lifeExpect <= 0){
+      return ("Great, you beat the odds by " + lifeExpect + " years. Enjoy the rest of your decay")
     }
+  }
+
+  LifeOverage(){
+    let lifeExpect = this.lifeExpect()
+    if (lifeExpect <= 0){
+      return ("Great, you beat the odds by " + Math.abs(lifeExpect) + " years. Enjoy the rest of your decay")
+    }
+  }
+
 };
-
-//     LifeOverage
-//   if (this.ageInput > Lifespan){
-//     var timeOver = this.ageInput - Lifespan;
-// }
-// return timeOver;
