@@ -23,7 +23,7 @@ _https://3t8u.github._
 * _The application creates another function that takes user inputted age and compares it against the set expected age of user's gender in earth years (Male = 75 years & Female = 85 years)_
 
   * _Example Input: User enters 40 years and selects gender "Male"_
-  * _Example Output: Application subtracts 40 from 75 then returns the result into a new let_
+  * _Example Output: Application subtracts 40 from 80 then returns the result into a new let_
 
 * _The application sends the result of the life expectancy function back into the age calculator function and outputs the user life expectancy on each planet with a message_
 
